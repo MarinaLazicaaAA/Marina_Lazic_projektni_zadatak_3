@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: MarinaLazic_v;
+	src:url("Slikice/MarinaLazic_v (1).ttf");
+}
+.pozadina{
+	background-image: url("Slikice/Leptirici.png");
+	background-repeat: no-repeat;
+	background-size: 1800px;
+	background-position: center;
+}
+.drugapozadina{
+	background-color: rgb(207, 159, 255)
+}
+.paragraf_1 {
+	color: white;
+	font-size: 25px;
+	background-color: lightgray;
+	line-height:40px;
+	width: center;
+	background-color: rgba(207, 159, 255, 0.5);
+	padding: 20px;	
+	list-style-position: center;
+}
+.paragraf_2{
+	color: darkolive;
+	font-size: 20px;
+	background-color: rgba(255, 255, 255, 0.5);
+	line-height: 40px;
+	width: cover;
+	display: inline-block;
+	text-align: center;
+	list-style-position: center;
+}
+.menu li:active {background-color:	CornflowerBlue;}
+		
+	.menu li a {	color:DarkSlateGray; 
+			font-family: "CabinSketch", sans-serif; 
+			/*font-family: "Montserrat", sans-serif; */
+			text-transform: uppercase;
+			}
+	.menu li a:link {text-decoration:none;}
+	.menu li a:hover {text-decoration:underline;}
+	.menu li{
+	display: inline;
+	}
+	.menu{
+	padding:60px; 
+	margin-left: auto; 
+	margin-right:auto;  
+	width: 600px;
+	}
+	.menu li{
+	background-color:rgba(255, 255, 255, 0.5);
+			padding:40px;
+			border: 2px solid Darkred;
+	}
+	</style>
+.blok1{
+	background-color: pink;
+	font-size: 20px;
+	text-align: center;
+	color: darkolive;
+}
+.blok2{
+	background-color: lightgray;
+	font-size: 20px;
+	text-align: center;
+	color: darkolive;
+}
+.blok3{
+	background-color: pink;
+	font-size: 20px;
+	text-align: center;
+	color: darkolive;
+}
+img {
+	height: 400px
+}
